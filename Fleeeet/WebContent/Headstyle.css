@@ -1,0 +1,95 @@
+
+div.container {
+    width: 100%;
+    margin: 0px;
+    border: 1px solid gray;
+    line-height: 150%;
+}
+
+div.header{
+ padding: 0.5em;
+    color: white;
+    background-color: gray;
+    clear: left;
+   
+
+}
+
+div.footer {
+    padding: 0.5em;
+    color: white;
+    background-color: gray;
+    clear: left;
+    
+}
+
+div.left {
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 1em;
+    
+}
+
+div.content {
+    margin-left: 190px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    height:70%;
+    border: 10px solid gray;
+}
+
+
+
+
+
+
+#marq{
+	height:50;
+	width:1000;
+	border:solid;
+	background-color:lavender;
+	
+
+}
+
+#foot{
+	height:200;
+	width:1000;
+	border:solid;
+	background-color:grey;
+	
+
+}
+#copyright{
+	color:Blue;
+}
+
+
+.headerlink
+{
+	height:50;
+	width:100;
+	border:solid;
+	background-color:orange; 
+    display: inline; 
+}
+#tabletd
+{
+	height:40px;
+
+}
+
+#tabletd2
+{
+	height:15px;
+
+}
+
+.custinfo
+{
+	height:50;
+	width:100;
+	border:solid;
+	  
+}

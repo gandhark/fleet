@@ -1,0 +1,110 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	   <package name="mypack"  namespace="/" extends="struts-default">
+        <result-types>
+<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult"/>
+</result-types>
+
+        <action name="Body">
+            <result type="tiles">baseLayout</result>
+        </action>     
+        
+         <action name="CustInfo">
+            <result type="tiles">CustInfo</result>
+        </action> 
+           
+           <action name="AddOn">
+            <result type="tiles">AddOn</result>
+        </action> 
+        
+         <action name="VehicleSelection">
+            <result type="tiles">VehicleSelection</result>
+        </action>    
+           
+           <action name="Login">
+            <result type="tiles">Login</result>
+        </action>    
+           
+             <action name="ConfirmBooking">
+            <result type="tiles">ConfirmBooking</result>
+        </action> 
+        
+        <action name="Home">
+            <result type="tiles">Home</result>
+        </action> 
+        
+        <action name="go" class="mypack.FirstAction">
+            <result name="success" type="tiles">Login</result>
+              <result name="input">MemReg</result>
+        </action> 
+        
+         <action name="MemReg">
+            <result type="tiles">MemReg</result>
+         </action> 
+        
+         <action name="AboutUs">
+            <result type="tiles">AboutUs</result>
+         </action> 
+         
+          <action name="Careers">
+            <result type="tiles">Careers</result>
+         </action> 
+         
+         <action name="ContactUs">
+            <result type="tiles">ContactUs</result>
+         </action> 
+         
+          <action name="homego" class="mypack.HomeAction">
+            <result name="success" type="tiles">VehicleSelection</result>
+         </action> 
+         
+         <action name="Location">
+            <result type="tiles">Location</result>
+         </action> 
+         
+          
+         <action name="findloc" class="mypack.FindLocAction">
+            <result type="tiles">Location</result>
+         </action> 
+         
+         
+			<action name="vehiclego" class="mypack.VehicalSelectionAction">
+            <result type="tiles">AddOn</result>
+         </action> 
+         
+         <action name="addongo" class="mypack.AddOnAction">
+            <result type="tiles">ConfirmBooking</result>
+         </action> 
+         
+         
+         
+         <action name="logingo" class="mypack.LoginAction">
+            <result type="tiles">Home</result>
+         </action> 
+         
+          <action name="addongo2" class="mypack.ConfirmBookAction">
+            <result type="tiles">ConfirmBooking</result>
+         </action> 
+         
+         <action name="Affiliatedhotels">
+            <result type="tiles">Affiliatedhotels</result>
+         </action> 
+         
+         
+         <action name="Bill">
+            <result type="tiles">Bill</result>
+         </action> 
+         
+         
+         <action name="confirmgo" class="mypack.ConfirmBillAction">
+            <result type="tiles">Bill</result>
+         </action> 
+         
+          
+         
+            </package>
+</struts>
+        
